@@ -13,6 +13,7 @@ public class Collections1 {
         Scanner t = new Scanner(System.in);
         int num = 1;
         for (int i = 0; num != 0; i++) {
+            System.out.print("enter another number or enter 0 to finish");
             num = t.nextInt();
             if (num != 0) {
                 nums.add(num);
